@@ -12,6 +12,6 @@ categories: jekyll update
 
 전공시험날짜와 겹쳐 시상식에 참여할 수 없었던 점이 아쉬웠지만, 친구가 내 이름표를 기념으로 챙겨주었다.^^
 
-카드뉴스의 내용은 [경인지방통계청 블로그](https://blog.naver.com/kostat_giro/221370662899)에서 확인할 수 있다.
+카드뉴스의 내용은 [경인지방통계청 블로그](https://blog.naver.com/kostat_giro/221370664699)에서 확인할 수 있다.
 
 
