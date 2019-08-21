@@ -6,4 +6,4 @@ categories: 3D프린팅
 
 서울여자대학교에서 2018년 12월 18일부터 20일까지 진행된 3D 프린팅 교육에 참여했다.
 
-![](./img/프린팅.jpg){: width="150" height="200"}
+![title](/img/프린팅.jpg){: width="150" height="200"}
