@@ -296,3 +296,6 @@ defaults:
       related: true
 
 remote_theme : mmistakes/minimal-mistakes
+
+category_dir: category/
+tag_dir: tag/
