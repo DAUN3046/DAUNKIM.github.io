@@ -159,7 +159,7 @@ t.bgcolor("black")
 <b>start 함수</b>
 <br>
 
->Spacebar를 누를 시 실행된다. (마지막 부분?? 코드 참고)
+>Spacebar를 누를 시 실행된다. (<b>키 입력 받기</b> 부분 코드 참고)
 
 <pre><code>def start():
     global playing
