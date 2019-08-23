@@ -26,6 +26,7 @@ tags: 파이썬 과제 터틀 리듬게임
 
 <b> 함수 추가
 <br>
+  
 > 판정을 1초만 띄우고 사라지게 하고 싶어서 방법을 궁리하던 중 time.sleep() 함수를 알게되어 이를 사용하기 위해 time 패키지를 넣었다.
 
 <pre><code>import turtle as t
@@ -52,6 +53,7 @@ penalty = 0
 <br>
 <b>판정, 스코어, 패널티 표시할 터틀들을 각각 p, s, pn으로 추가</b>
 <br>
+
 >삽입된 turtle들은 추가하는 즉시 화살표 모양으로 화면에 나타나 있다. 화살표 모양을 없애고 싶을 때 hideturtle()로 보이지 않게 할 수 있다.
 
 <pre><code>p = t.Turtle() # 판정 표시할 터틀 추가
@@ -75,6 +77,7 @@ pn.write("PENALTY: %s" % penalty, False, "center", ("", 15))
 <br>
 <b>떨어지는 노트 설정</b>
 <br>
+
 >사각형 모양 터틀을 떨어지는 노트로 생성
 
 <pre><code>note_x = 0
@@ -147,6 +150,7 @@ t.bgcolor("black")
 <br>
 <b>플레이 시작 전</b>
 <br>
+
 > 플레이 시작 전후 장면 전환을 위해 False 상태로 둔다.
 
 <pre><code>playing=False</code></pre>
@@ -154,6 +158,7 @@ t.bgcolor("black")
 <br>
 <b>start 함수</b>
 <br>
+
 >Spacebar를 누를 시 실행된다. (마지막 부분?? 코드 참고)
 
 <pre><code>def start():
@@ -167,6 +172,7 @@ t.bgcolor("black")
 <br>
 <b>downpart 함수</b>
 <br>
+
 > 판정을 위한 바닥 오브젝트를 생성한다.
 여기에선 선을 4개 그려서 4개의 판정 선을 생성했다.
 
@@ -215,6 +221,7 @@ downpart(a,b,c,d) # 바닥 4개 깔기 완료!
 
 <b>키 함수</b>
 <br>
+
 > 아래는 숫자 '1'키를 누르면 실행되는 함수이다.
 
 <pre><code>def onekey():
@@ -264,6 +271,7 @@ downpart(a,b,c,d) # 바닥 4개 깔기 완료!
 * <code>play()</code> 이미 판정이 한 번 뜬 상태에서 노트가 멈추지 않고 내려오면 MISS가 계속 뜨므로 이를 방지하기 위해 play()를 재호출하여 새로운 노트를 내보낸다.
 
 <br>
+
 > 남은 3개의 바닥 오브젝트들도 위와 같이 코딩한다.
 
 <pre><code>def twokey():
@@ -391,6 +399,7 @@ def fourkey():
 <br>
 <b>키 입력 받기</b>
 <br>
+
 > 숫자키패드 1&2&3&4키를 누르면 각 버튼이 입력되도록 키 입력을 받는다.
 키 입력 시 각 함수가 실행된다.
 
