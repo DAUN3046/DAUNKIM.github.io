@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon"<-이건좀 너무 꺼멈, "mint", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"<-이건좀 너무 꺼멈, "mint", "sunrise"<-주황빨강. 뭔가구려
 
 # Site Settings
 locale                   : "en-US"
