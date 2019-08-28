@@ -1,6 +1,6 @@
 ---
 
-layout: category
+layout: [category]
 
 title: Activity
 
