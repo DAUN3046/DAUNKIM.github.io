@@ -3,7 +3,6 @@ title: "플루토 네트워크 기관탐방"
 date: 2019-07-15 08:26:28 -0400
 categories: Activity
 tags: 플루토네트워크 기관탐방 WISET
-permalink:/Activity
 ---
 
 WISET IT융합팀을 통해 플루토 네트워크 기관탐방 기회를 가지게 되었다.
