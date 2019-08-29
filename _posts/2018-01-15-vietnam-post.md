@@ -1,5 +1,5 @@
 ---
-title: "(수정중) 2018 Global Service Learning 참여"
+title: "2018 Global Service Learning 참여"
 date: 2018-01-15 08:26:28 -0400
 categories: Activity
 tags: 교육봉사 베트남
