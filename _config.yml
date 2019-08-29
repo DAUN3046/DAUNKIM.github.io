@@ -10,17 +10,20 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+#테마 설정
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
+
+#스킨 설정
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"<-이건좀 너무 꺼멈, "mint", "sunrise"<-주황빨강. 뭔가구려
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Daun Kim's Blog"
-title_separator          : "-"
+locale                   : "ko-KR" #ex. en-US
+title                    : "Daun Kim's Blog" #블로그 제목
+title_separator          : "-" # 글 제목 - 블로그 제목 처럼 사이트 표시
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "DAUN KIM"
-description              : "An amazing website."
+name                     : "DAUN KIM" # 사이트 소유자의 이름
+description              : "Daun's personal website." #사이트에 대한 간단한 설명
 url                      : "https://daun3046.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -28,8 +31,8 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
-comments:
+words_per_minute         : 200 #read time 계산을 위한 분당 읽는 글자수
+comments: #댓글 성정에 대한 부분.
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
@@ -65,6 +68,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  
+#사이트 내 검색 설정
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -76,7 +81,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-# SEO Related
+# SEO Related 웹마스터 도구 사용을 도와주는 부분
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
@@ -97,6 +102,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
+#구글 애널리틱스에 대한 설정
 # Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
@@ -104,7 +110,7 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
+#사이트 소유자에 대한 정보
 # Site Author
 author:
   name             : "Daun Kim"
@@ -224,7 +230,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
+#플러그인 정의하는 부분
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -255,12 +261,12 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 
-##category_archive:
-##  type: liquid
-##  path: /categories/
-##tag_archive:
-##  type: liquid
-##  path: /tags/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
@@ -296,7 +302,7 @@ defaults:
       comments: # true
       share: true
       related: true
-      
+     
   # _pages 부분
   - scope:
       path: "_pages"
