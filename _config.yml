@@ -18,7 +18,7 @@ theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"<-이건좀 너무 꺼멈, "mint", "sunrise"<-주황빨강. 뭔가구려
 
 # Site Settings
-locale                   : "ko-KR" #ex. en-US
+locale                   : "en-US" #ex. en-US
 title                    : "Daun Kim's Blog" #블로그 제목
 title_separator          : "-" # 글 제목 - 블로그 제목 처럼 사이트 표시
 subtitle                 : # site tagline that appears below site title in masthead
@@ -32,7 +32,7 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200 #read time 계산을 위한 분당 읽는 글자수
-comments: #댓글 성정에 대한 부분.
+comments: #댓글 설정에 대한 부분.
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
@@ -261,12 +261,12 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+## category_archive:
+##  type: liquid
+##  path: /categories/
+##tag_archive:
+##  type: liquid
+##  path: /tags/
 
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
