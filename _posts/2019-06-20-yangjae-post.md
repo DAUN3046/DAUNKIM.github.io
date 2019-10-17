@@ -5,3 +5,5 @@ categories: [Activity]
 tags: AI 양재ai혁신허브
 permalink:/Activity
 ---
+
+6월부터 9월까지 양재 AI 실무자 양성과정에 참여하였다.
