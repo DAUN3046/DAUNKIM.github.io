@@ -3,7 +3,6 @@ title: "파이썬 과제 - 터틀을 이용한 리듬게임"
 date: 2019-06-02 08:26:28 -0400
 categories: Assignment
 tags: 파이썬 과제 터틀 리듬게임
-permalink:/Assignment
 ---
 
 이번에 파이썬을 처음 배우면서, 터틀을 이용한 게임을 제작하게 되었다.
