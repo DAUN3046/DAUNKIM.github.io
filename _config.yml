@@ -316,12 +316,12 @@ remote_theme : mmistakes/minimal-mistakes
 category_dir: category/
 tag_dir: tag/
 
-##navigation:
-##  - title: Home
-##    url: /index.html
-##  - title: Category
-##    url: /category
-##  - title: Activity
-##    url: /Activity
-##  - title: Assignment
-##    url: /Assignment
+navigation:
+  - title: Home
+    url: /index.html
+  - title: Category
+    url: /categories/
+  - title: Activity
+    url: /Activity/
+  - title: Assignment
+    url: /Assignment/
