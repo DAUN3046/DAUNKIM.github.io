@@ -15,7 +15,7 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 
 #스킨 설정
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"<-이건좀 너무 꺼멈, "mint", "sunrise"<-주황빨강. 뭔가구려
+minimal_mistakes_skin    : "" # "air", "aqua", "contrast", "dark", "dirt", "neon"<-이건좀 너무 꺼멈, "mint", "sunrise"<-주황빨강. 뭔가구려
 
 # Site Settings
 locale                   : "en-US" #ex. en-US
@@ -298,10 +298,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
-      share: true
-      related: true
+      share: # true
+      related: # true
      
   # _pages 부분
   - scope:
