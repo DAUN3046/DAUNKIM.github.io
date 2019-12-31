@@ -1,8 +1,8 @@
 ---
 
-layout: [category]
+layout: [categories]
 
 title: Activity
 
-permalink: '/Activity
 ---
+
