@@ -2,6 +2,7 @@
 title: "2019 Bloomberg 글로벌 멘토링 - 1.킥오프 미팅 참여"
 date: 2019-03-07 08:26:28 -0400
 categories: [Activity]
+layout: categories
 tags: Bloomberg mentoring WISET
 ---
 
