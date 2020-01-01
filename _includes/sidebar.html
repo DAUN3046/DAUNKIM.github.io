@@ -24,21 +24,27 @@
   {% endif %}
   </div>
      
-  <div>
-    <div class="sidebar-nav-item">Categories</div>
-    <nav class="content-ul">
-      {% for category in site.categories %}
-      <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
-         class="sidebar-nav-item pl-3rem">
-                            <span class="name">
-                                {{ category | first }}
-                            </span>
-        <span class="badge">{{ category | last | size }}</span>
-      </a>
-      {% endfor %}
-    </nav>
-  </div>
+  {% assign categories_max = 0 %}
+{% for category in site.categories %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
+  {% endif %}
+{% endfor %}
 
+<ul class="taxonomy__index">
+  {% for i in (1..categories_max) reversed %}
+    {% for category in site.categories %}
+      {% if category[1].size == i %}
+        <li>
+          <a href="#{{ category[0] | slugify }}">
+            <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+    
   <div>
     <div class="sidebar-nav-item">Tags</div>
     <div class="tags-cloud">
