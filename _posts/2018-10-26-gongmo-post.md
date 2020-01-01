@@ -1,6 +1,7 @@
 ---
 title: "2018 국가통계 응답문화 조성을 위한 콘텐츠 공모전"
 date: 2018-10-26 08:26:28 -0400
+layout: categories
 categories: [Activity]
 tags: 국가통계 공모전
 ---
