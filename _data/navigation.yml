@@ -4,8 +4,12 @@ main:
     url: https://daun3046.github.io
   - title: "Activity" #네비게이션 바에 표시 되는 이름
     url: /Activity/ #클릭시 이동할 url
-  - title: "Tags"
-    url: /tag/
+  - title: "Certificate"
+    url: /Certificate/
+  - title : "Assignment"
+    url: /Assignment/
+  #- title: "Tags"
+  #  url: /tag/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
