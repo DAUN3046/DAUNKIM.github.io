@@ -3,7 +3,7 @@ main:
   - title : "Daun Kim's Blog"
     url: https://daun3046.github.io
   - title: "Activity" #네비게이션 바에 표시 되는 이름
-    url: /Activity/ #클릭시 이동할 url
+    url: /Activity/ #클릭시 이동할 url(각 포스트의 permalink이다.)
   - title: "Certificate"
     url: /Certificate/
   - title : "Assignment"
