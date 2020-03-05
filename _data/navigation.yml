@@ -3,11 +3,9 @@ main:
   - title : "Daun Kim's Blog"
     url: https://daun3046.github.io
   - title: "Category" #네비게이션 바에 표시 되는 이름
-    url: "/Categories/" #클릭시 이동할 url
-  - title: "About"
-    url : /about/
+    url: "/Category/" #클릭시 이동할 url
   - title: "Tags"
-    url: /tags/
+    url: /tag/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
