@@ -2,6 +2,6 @@
 
 layout: [categories]
 
-title: 삽질
+title: Sapjil
 
 ---
