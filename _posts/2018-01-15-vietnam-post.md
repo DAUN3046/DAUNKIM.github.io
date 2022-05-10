@@ -7,6 +7,7 @@ tags: 교육봉사 베트남
 permalink: /Activity/
 toc: true
 toc_sticky: true
+toc_label: "목차"
 ---
 
 17년 2학기 동안 직접 플랜을 기획한 뒤, 17년 12월 31일부터 18년 1월 14일까지 베트남 현지에서 Global Service Learning을 이행했다.
