@@ -326,10 +326,10 @@ navigation:
     url: /index.html
   - title: Category
     url: /categories/
-  - title: Activity
-    url: /Activity/
-  - title: Assignment
-    url: /Assignment/
+#   - title: Activity
+#     url: /Activity/
+#   - title: Assignment
+#     url: /Assignment/
   - title: Sapjil
     url: /Sapjil/
   - title: TIL
