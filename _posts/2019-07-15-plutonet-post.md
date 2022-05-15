@@ -1,7 +1,7 @@
 ---
 title: "플루토 네트워크 기관탐방"
 date: 2019-07-15 08:26:28 -0400
-layout: categories
+layout: posts
 categories: Activity
 tags: 플루토네트워크 기관탐방 WISET
 ---
