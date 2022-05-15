@@ -1,9 +1,9 @@
 ---
 title: "Category"
 date: 2022-05-16 08:26:28 -0400
-categories: [Category]
+categories: [Categories]
 layout: categories
-permalink: /Category/
+permalink: /Categories/
 ---
 
-# Category
+# Categories
