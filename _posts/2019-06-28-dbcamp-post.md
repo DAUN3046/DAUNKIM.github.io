@@ -1,7 +1,7 @@
 ---
 title: "(수정중) 대학생 기업경영 체험캠프 참가"
 date: 2019-06-28 08:26:28 -0400
-layout: categories
+layout: posts
 categories: [Activity]
 tags: DB그룹 대학생기업경영체험캠프
 ---
