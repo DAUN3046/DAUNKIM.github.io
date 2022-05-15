@@ -4,7 +4,7 @@ date: 2019-12-16 08:26:28 -0400
 layout:categories
 categories: Volunteer
 #tags: 
-published : True
+published : false
 ---
 
 오늘은 한 학기 동안 준비했던 [공학콘서트](https://n.news.naver.com/article/025/0002962622)에 참여했다.
