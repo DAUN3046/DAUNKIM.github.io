@@ -4,6 +4,7 @@ layout: archive
 
 {{ content }}
 
+<div>
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
@@ -33,7 +34,7 @@ layout: archive
     {% endif %}
   {% endfor %}
 {% endfor %}
-
+</div>
 
 <div id="disqus_thread"></div>
 <script>
