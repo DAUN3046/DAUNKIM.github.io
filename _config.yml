@@ -15,7 +15,7 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 
 #스킨 설정
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"<-이건좀 너무 꺼멈, "mint", "sunrise"<-주황빨강. 뭔가구려
+minimal_mistakes_skin    : "" # "air", "aqua", "contrast", "dark", "dirt", "neon"<-이건좀 너무 꺼멈, "mint", "sunrise"<-주황빨강. 뭔가구려
 
 # Site Settings
 locale                   : "en-US" #ex. en-US
@@ -35,7 +35,7 @@ words_per_minute         : 200 #read time 계산을 위한 분당 읽는 글자�
 comments: #댓글 설정에 대한 부분.
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : https-daun3046-github-io-1 # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
