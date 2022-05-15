@@ -1,4 +1,7 @@
---
-layout: archive
-permalink: '/Category/'
---
+---
+
+layout: [categories]
+
+title: Category
+
+---
