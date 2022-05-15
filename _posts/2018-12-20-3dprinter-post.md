@@ -2,7 +2,7 @@
 title: "2018년 하반기 3D 프린팅 교육 참여"
 date: 2018-12-20 08:26:28 -0400
 categories: [Activity]
-layout: categories
+layout: posts
 tags: 3D프린팅
 ---
 
