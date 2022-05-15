@@ -1,9 +1,8 @@
 ---
 title: "(수정중)서울여자대학교 We Up! 공학콘서트 개최"
-date: 2019-12-16 08:26:28 -0400
-layout:categories
+date: 2019-12-21 08:26:28 -0400
+layout: categories
 categories: Volunteer
-#tags: 
 published : false
 ---
 
