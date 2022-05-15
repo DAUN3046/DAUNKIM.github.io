@@ -4,7 +4,7 @@ date: 2018-10-26 08:26:28 -0400
 layout: categories
 categories: [Activity]
 tags: 국가통계 공모전
-permalink:/Activity/
+permalink: /Activity/
 ---
 
 경인지방통계청에서 연 2018 국가통계 응답문화 조성을 위한 콘텐츠 공모전에서 카드뉴스를 제작하여 우수상을 수상하였다.
