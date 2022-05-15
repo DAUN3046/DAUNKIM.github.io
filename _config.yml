@@ -336,3 +336,5 @@ navigation:
     url: /Sapjil/
   - title: TIL
     url: /TIL/
+
+category_list: [Home, Activity, Certificate, Sapjil, TIL, Category]
