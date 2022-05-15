@@ -1,7 +1,0 @@
----
-
-layout: [categories]
-
-title: Category
-
----
